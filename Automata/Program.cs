@@ -9,13 +9,14 @@
         Console.WriteLine("1. Capturar cadena de entrada");
         Console.WriteLine("2. Créditos");
         Console.WriteLine("3. Salir");
+            Console.WriteLine(" ");
 
         int opcion = int.Parse(Console.ReadLine());
 
         switch (opcion)
         {
             case 1:
-                Console.WriteLine("Mete lo que sea, prueba para que se repita el menú");
+                Console.WriteLine("Inserte su cadena");
                 Console.ReadLine();
                  
                 break;
@@ -25,7 +26,6 @@
                 Console.WriteLine("Jonathan Benjamin Vela Silva 21170072");
                 Console.WriteLine("Estructura de Datos");
                 Console.WriteLine("4 B");
-                    Console.ReadLine();
                 break;
             case 3:
                 Console.WriteLine("Hasta luego ;)");
@@ -33,7 +33,6 @@
                 break;
             default:
                 Console.WriteLine("Opción no válida. Por favor, elige una opción del 1 al 3.");
-                    Console.ReadLine();
                 break;
         }
 
